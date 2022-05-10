@@ -111,8 +111,6 @@ public class JobSeekerController {
 			
 		List<PostedJobs> appliedJobs= postedJobsService.getMyJobApplications(username);
 		
-		System.out.println(appliedJobs);
-		
 		ModelAndView mav = new ModelAndView("myAppliedJobs");
 		mav.addObject("appliedJobs", appliedJobs);
 
