@@ -25,7 +25,7 @@ import com.jobportal.job.PostedJob.PostedJobsService;
 import com.jobportal.userhandler.UserBean;
 import com.jobportal.userhandler.UserRepository;
 
-
+//Controller dedicated for employer URLs
 @Controller
 public class EmployerController {
 	
